@@ -16,6 +16,7 @@ echo "Hello, israelias2023, you are due to fall forward."
 
 <details>
 <summary> todo, etc </summary>
+
 This is initialized from [Next.js' upcoming SSG (static-site generation) support using Notion's private API for a backend](https://vercel.com/templates/next.js/notion-blog) example with [transitivebullsh](https://github.com/transitive-bullshit/nextjs-notion-starter-kit/)'s `notion-starter-kit`
 
 
