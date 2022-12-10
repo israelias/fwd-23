@@ -1,10 +1,10 @@
 {
-  "name": "source-23",
+  "name": "fwd-23",
   "version": "2.0.0",
   "private": true,
-  "description": "me = new README(2023) with Next.js and Notion.",
+  "description": "israelias falls fwd-23 with Next.js and Notion.",
   "author": "Joem Elias Sanez <israelias.js@gmail.com>",
-  "repository": "israelias/source-23",
+  "repository": "israelias/fwd-23",
   "license": "MIT",
   "engines": {
     "node": ">=16"
