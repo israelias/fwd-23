@@ -7,6 +7,7 @@ export default siteConfig({
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: process.env.NEXT_PUBLIC_SPACE_ID,
+  // 1a2baa72-2b71-44d5-88a9-0b4255eb4077
   // basic site info (required)
   name: 'fwd-23',
   domain: 'israelias',
