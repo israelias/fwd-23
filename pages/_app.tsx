@@ -28,9 +28,9 @@ import {
   posthogId
 } from '@/lib/config'
 
-if (!isServer) {
-  bootstrap()
-}
+// if (!isServer) {
+//   bootstrap()
+// }
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter()

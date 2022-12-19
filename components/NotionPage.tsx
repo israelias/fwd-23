@@ -26,7 +26,7 @@ import { searchNotion } from '@/lib/search-notion'
 import { useDarkMode } from '@/lib/use-dark-mode'
 
 import { Footer } from './Footer'
-import { GitHubShareButton } from './GitHubShareButton'
+// import { GitHubShareButton } from './GitHubShareButton'
 import { Loading } from './Loading'
 import { NotionPageHeader } from './NotionPageHeader'
 import { Page404 } from './Page404'
@@ -210,7 +210,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
   const isBlogPost =
     block?.type === 'page' && block?.parent_table === 'collection'
   const isBioPage =
-    parsePageId(block?.id) === parsePageId('f16c869a055e4903a88ecfb871bc635a')
+    parsePageId(block?.id) === parsePageId('f16c869a055e4903a88ecfb871bc635aaa')
 
   const showTableOfContents = !!isBlogPost
   const minTableOfContentsItems = 3
@@ -319,7 +319,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         pageCover={pageCover}
       />
 
-      <GitHubShareButton />
+      {/* <GitHubShareButton /> */}
     </>
   )
 }
