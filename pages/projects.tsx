@@ -1,5 +1,5 @@
 import {Key, useEffect, useState} from "react";
-import { api } from '../lib/config'
+// import { api } from '../lib/config'
 import fetch from 'isomorphic-unfetch'
 import React from 'react'
 
@@ -28,14 +28,14 @@ const ProjectListFull = () => {
   const [loading, setLoading] =  useState(false);
   const [projects, setProjects] = useState([])
 
-  const fetchData =  () => {
-    // setLoading(true)
-    const res = fetch('/api/github')
-    // const data = await res.json()
-    return res
-    // return Promise.resolve(data ?? [])
-
-  }
+  // const fetchData =  () => {
+  //   // setLoading(true)
+  //   const res = fetch('/api/github')
+  //   // const data = await res.json()
+  //   return res
+  //   // return Promise.resolve(data ?? [])
+  //
+  // }
 
   useEffect(() => {
     setLoading(true)
