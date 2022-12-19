@@ -1,4 +1,4 @@
-import {Key, useEffect, useState} from "react";
+import {Key, useEffect, useState, Fragment} from "react";
 // import { api } from '../lib/config'
 import fetch from 'isomorphic-unfetch'
 import React from 'react'
@@ -74,7 +74,7 @@ const ProjectListFull = () => {
     );
 
   // Object(projects?.repos)
-  console.log(projects)
+  // console.log(projects)
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   //@ts-ignore
@@ -124,7 +124,7 @@ const ProjectListFull = () => {
             },
             index: Key
           ) => (
-         <>
+         <Fragment key={index}>
            <hr/>
            {p.homepage}
            <br/>
@@ -142,7 +142,7 @@ const ProjectListFull = () => {
            <br/>
            {p.stargazers_url}
            <hr/>
-         </>
+         </Fragment>
 
 
           )
