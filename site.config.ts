@@ -7,20 +7,21 @@ export default siteConfig({
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: process.env.NEXT_PUBLIC_SPACE_ID,
+  // 1a2baa72-2b71-44d5-88a9-0b4255eb4077
   // basic site info (required)
-  name: 'fwd-23',
+  name: 'src/fwd',
   domain: 'israelias',
   author: 'Joem Elias Sanez',
 
   // open graph metadata (optional)
-  description: 'Inspect Source 2023: Personal site of Joem Elias Sanez',
+  description: 'src/fwd: personal site of Joem Elias Sanez',
 
   // social usernames (optional)
-  twitter: 'israelias',
+  // twitter: 'israelias',
   github: 'israelias',
   linkedin: 'joem-elias-sanez',
-  // mastodon: '#', // optional mastodon profile URL, provides link verification
-  // newsletter: '#', // optional newsletter URL
+  //mastodon: '#', // optional mastodon profile URL, provides link verification
+  newsletter: 'mailto:israelias.js@gmail.com', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
@@ -35,7 +36,7 @@ export default siteConfig({
   // whether or not redis is enabled for caching generated preview images (optional)
   // NOTE: if you enable redis, you need to set the `REDIS_HOST` and `REDIS_PASSWORD`
   // environment variables. see the readme for more info
-  isRedisEnabled: false,
+  isRedisEnabled: true,
 
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
@@ -54,8 +55,8 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default',
-  // navigationStyle: 'custom',
+  // navigationStyle: 'default',
+  navigationStyle: 'custom',
   navigationLinks: [
     {
       title: 'About',
@@ -64,6 +65,11 @@ export default siteConfig({
     {
       title: 'Contact',
       pageId: process.env.NEXT_PUBLIC_CONTACT_ID
+    },
+    {
+      title: 'Notes',
+      pageId:'d5763fd471e345359e7b263c1e53bb23'
     }
+
   ]
 })

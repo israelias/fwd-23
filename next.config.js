@@ -13,11 +13,12 @@ module.exports = withBundleAnalyzer({
       'pbs.twimg.com',
       'abs.twimg.com',
       's3.us-west-2.amazonaws.com',
-      'transitivebullsh.it',
-      'israelias'
+      'israelias',
+      'fwd-23.vercel.app',
+      'src-fwd.vercel.app'
     ],
     formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: true,
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;"
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   }
 })
