@@ -2478,7 +2478,7 @@ __metadata:
     react-body-classname: ^1.3.1
     react-dom: ^18.2.0
     react-fluid-animation: ^1.0.1
-    react-notion-x: ^6.15.6
+    react-notion-x: ^6.15.7
     react-tweet-embed: ^2.0.0
     react-use: ^17.3.2
     rss: ^1.2.2
@@ -4043,14 +4043,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"notion-types@npm:^6.15.6":
+"notion-types@npm:^6.15.4, notion-types@npm:^6.15.6":
   version: 6.15.6
   resolution: "notion-types@npm:6.15.6"
   checksum: 46ef84500d42ed8345b8383ab1bd3ced467acb41f7d05f516d997323b92f07c8e3d8ae43044d5ff24760d010c48449d699af04fef4f4328505eb40239f3a255e
   languageName: node
   linkType: hard
 
-"notion-utils@npm:^6.15.6":
+"notion-utils@npm:^6.15.4, notion-utils@npm:^6.15.6":
   version: 6.15.6
   resolution: "notion-utils@npm:6.15.6"
   dependencies:
@@ -4762,15 +4762,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-notion-x@npm:^6.15.6":
-  version: 6.15.6
-  resolution: "react-notion-x@npm:6.15.6"
+"react-notion-x@npm:^6.15.7":
+  version: 6.15.7
+  resolution: "react-notion-x@npm:6.15.7"
   dependencies:
     "@fisch0920/medium-zoom": ^1.0.7
     "@matejmazur/react-katex": ^3.1.3
     katex: ^0.15.3
-    notion-types: ^6.15.6
-    notion-utils: ^6.15.6
+    notion-types: ^6.15.4
+    notion-utils: ^6.15.4
     prismjs: ^1.27.0
     react-fast-compare: ^3.2.0
     react-hotkeys-hook: ^3.0.3
@@ -4782,7 +4782,7 @@ __metadata:
   peerDependencies:
     react: ">=16"
     react-dom: ">=16"
-  checksum: b6aae482ffa271bb73bb1c78c3922dabe08eceb08aeb403012ef6ace77debc06c5bbf95cfb91aee87acf04b7ddc98c2ba202a19fe33b85d1c749868925cc8902
+  checksum: aa6cb59d42c2fcc05a8819ccd73a4618246d9d1b1351f73f6a21c294390fcb2d9006e419be760624cbf967b5ef51f26a3b00e3aa161755fcb22238752dc322eb
   languageName: node
   linkType: hard
 
