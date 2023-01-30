@@ -435,12 +435,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@keyvhq/core@npm:^1.6.9":
-  version: 1.6.9
-  resolution: "@keyvhq/core@npm:1.6.9"
+"@keyvhq/core@npm:^1.6.26":
+  version: 1.6.26
+  resolution: "@keyvhq/core@npm:1.6.26"
   dependencies:
     json-buffer: ~3.0.1
-  checksum: 94783a4d84fee3af12ebd99c6847f5fc49f5881945c5b173f76533f9302e7bae2316bf408ceb2a9af353de88a3312a75be0f5e94f974d10294ce66ff1cd41f16
+  checksum: f9480723aa038465ebb55633a90588040d32cdba99d716147d166b68311dbcc4d4f47338ebb76be7b442f3b42838635dedd2b49d868a1ba5b29c6fb166b75a13
   languageName: node
   linkType: hard
 
@@ -2439,7 +2439,7 @@ __metadata:
   resolution: "fwd-23@workspace:."
   dependencies:
     "@fisch0920/use-dark-mode": ^2.4.0
-    "@keyvhq/core": ^1.6.9
+    "@keyvhq/core": ^1.6.26
     "@keyvhq/redis": ^1.6.10
     "@next/bundle-analyzer": ^12.3.1
     "@react-icons/all-files": ^4.1.0
