@@ -2478,7 +2478,7 @@ __metadata:
     react-body-classname: ^1.3.1
     react-dom: ^18.2.0
     react-fluid-animation: ^1.0.1
-    react-notion-x: ^6.15.6
+    react-notion-x: ^6.15.8
     react-tweet-embed: ^2.0.0
     react-use: ^17.3.2
     rss: ^1.2.2
@@ -4043,7 +4043,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"notion-types@npm:^6.15.6":
+"notion-types@npm:^6.15.4, notion-types@npm:^6.15.6":
   version: 6.15.6
   resolution: "notion-types@npm:6.15.6"
   checksum: 46ef84500d42ed8345b8383ab1bd3ced467acb41f7d05f516d997323b92f07c8e3d8ae43044d5ff24760d010c48449d699af04fef4f4328505eb40239f3a255e
@@ -4060,6 +4060,19 @@ __metadata:
     notion-types: ^6.15.6
     p-queue: ^7.2.0
   checksum: de18a75182e6c569b42a9e45269bd84ed8ee2ffeac4caf24e063023b167910a3d952ff85e882ac0fa2ce3e3298ead9f54b79a759547b95de65fde90f371284b7
+  languageName: node
+  linkType: hard
+
+"notion-utils@npm:^6.15.8":
+  version: 6.15.8
+  resolution: "notion-utils@npm:6.15.8"
+  dependencies:
+    is-url-superb: ^6.1.0
+    mem: ^9.0.2
+    normalize-url: ^7.0.3
+    notion-types: ^6.15.4
+    p-queue: ^7.2.0
+  checksum: 8cf89d48568887d432160c18f5fcbf0fad72f38d254da82e6479428825bdf7a33abb40c1475487c82a1ab8bd281c313758567ae45c8cac0631c69ce9d602de0e
   languageName: node
   linkType: hard
 
@@ -4762,15 +4775,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-notion-x@npm:^6.15.6":
-  version: 6.15.6
-  resolution: "react-notion-x@npm:6.15.6"
+"react-notion-x@npm:^6.15.8":
+  version: 6.15.8
+  resolution: "react-notion-x@npm:6.15.8"
   dependencies:
     "@fisch0920/medium-zoom": ^1.0.7
     "@matejmazur/react-katex": ^3.1.3
     katex: ^0.15.3
-    notion-types: ^6.15.6
-    notion-utils: ^6.15.6
+    notion-types: ^6.15.4
+    notion-utils: ^6.15.8
     prismjs: ^1.27.0
     react-fast-compare: ^3.2.0
     react-hotkeys-hook: ^3.0.3
@@ -4782,7 +4795,7 @@ __metadata:
   peerDependencies:
     react: ">=16"
     react-dom: ">=16"
-  checksum: b6aae482ffa271bb73bb1c78c3922dabe08eceb08aeb403012ef6ace77debc06c5bbf95cfb91aee87acf04b7ddc98c2ba202a19fe33b85d1c749868925cc8902
+  checksum: 776e77f600c32a3b1cf927d7e5e4d74ab8c0cbd2fd0ba28cc68e0b3273298e7667fb4ec336287492792803e211a1d7f102ef9abc567110d21dca82bcacf5eb39
   languageName: node
   linkType: hard
 
