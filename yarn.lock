@@ -2478,7 +2478,7 @@ __metadata:
     react-body-classname: ^1.3.1
     react-dom: ^18.2.0
     react-fluid-animation: ^1.0.1
-    react-notion-x: ^6.15.6
+    react-notion-x: ^6.16.0
     react-tweet-embed: ^2.0.0
     react-use: ^17.3.2
     rss: ^1.2.2
@@ -4050,6 +4050,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"notion-types@npm:^6.16.0":
+  version: 6.16.0
+  resolution: "notion-types@npm:6.16.0"
+  checksum: fd117741507d75f91d59abca71e7ac09d99b2cfd174721650bf874eaa3ab1d3115c198edd30852b82fc206ec8f3f4b13ade17f606f3c55878f3920a7979fbbee
+  languageName: node
+  linkType: hard
+
 "notion-utils@npm:^6.15.6":
   version: 6.15.6
   resolution: "notion-utils@npm:6.15.6"
@@ -4060,6 +4067,19 @@ __metadata:
     notion-types: ^6.15.6
     p-queue: ^7.2.0
   checksum: de18a75182e6c569b42a9e45269bd84ed8ee2ffeac4caf24e063023b167910a3d952ff85e882ac0fa2ce3e3298ead9f54b79a759547b95de65fde90f371284b7
+  languageName: node
+  linkType: hard
+
+"notion-utils@npm:^6.16.0":
+  version: 6.16.0
+  resolution: "notion-utils@npm:6.16.0"
+  dependencies:
+    is-url-superb: ^6.1.0
+    mem: ^9.0.2
+    normalize-url: ^7.0.3
+    notion-types: ^6.16.0
+    p-queue: ^7.2.0
+  checksum: c64b9a4f6d03f8d5a2f65836d72a39e33aab7c9236218d0bb64e8c244bc57f1fdf9bae5ba96457c687845a8cc7199c31568a153755d920b42c73d86f7fe3be86
   languageName: node
   linkType: hard
 
@@ -4762,15 +4782,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-notion-x@npm:^6.15.6":
-  version: 6.15.6
-  resolution: "react-notion-x@npm:6.15.6"
+"react-notion-x@npm:^6.16.0":
+  version: 6.16.0
+  resolution: "react-notion-x@npm:6.16.0"
   dependencies:
     "@fisch0920/medium-zoom": ^1.0.7
     "@matejmazur/react-katex": ^3.1.3
     katex: ^0.15.3
-    notion-types: ^6.15.6
-    notion-utils: ^6.15.6
+    notion-types: ^6.16.0
+    notion-utils: ^6.16.0
     prismjs: ^1.27.0
     react-fast-compare: ^3.2.0
     react-hotkeys-hook: ^3.0.3
@@ -4782,7 +4802,7 @@ __metadata:
   peerDependencies:
     react: ">=16"
     react-dom: ">=16"
-  checksum: b6aae482ffa271bb73bb1c78c3922dabe08eceb08aeb403012ef6ace77debc06c5bbf95cfb91aee87acf04b7ddc98c2ba202a19fe33b85d1c749868925cc8902
+  checksum: 55287cbdd0c1ad4f60122e281db70cba7e06e1ff4ee0ec70fab09ecb8105537b2a6e61ce28f6dbff5d2961c298334a80493318da3d3d024c97ac3879dae16c82
   languageName: node
   linkType: hard
 
