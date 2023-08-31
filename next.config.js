@@ -14,6 +14,8 @@ module.exports = withBundleAnalyzer({
       'abs.twimg.com',
       's3.us-west-2.amazonaws.com',
       'israelias',
+      'israelias.notion.site',
+      'raw.githubusercontent.com',
       'fwd-23.vercel.app',
       'src-fwd.vercel.app'
     ],
