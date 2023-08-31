@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: process.env.NEXT_PUBLIC_SPACE_ID,
   // 1a2baa72-2b71-44d5-88a9-0b4255eb4077
   // basic site info (required)
-  name: 'src/fwd',
-  domain: 'israelias',
+  name: process.env.NEXT_PUBLIC_SITE_NAME,
+  domain: process.env.NEXT_PUBLIC_SITE_DOMAIN,
   author: 'Joem Elias Sanez',
 
   // open graph metadata (optional)
-  description: 'src/fwd: personal site of Joem Elias Sanez',
+  description: process.env.NEXT_PUBLIC_SITE_DESCRIPTION,
 
   // social usernames (optional)
   // twitter: 'israelias',
@@ -27,7 +27,7 @@ export default siteConfig({
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
   defaultPageIcon: process.env.NEXT_PUBLIC_PAGE_ICON,
-  defaultPageCover: null,
+  defaultPageCover: process.env.NEXT_PUBLIC_PAGE_COVER,
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
@@ -50,7 +50,11 @@ export default siteConfig({
 
   pageUrlAdditions: {
     '/resume-redux': process.env.NEXT_PUBLIC_RESUME_ID,
-    '/vim-hacks': process.env.NEXT_PUBLIC_VIM_ID
+    '/vim-hacks': process.env.NEXT_PUBLIC_VIM_ID,
+    '/node': process.env.NEXT_PUBLIC_NODE_ID,
+    '/spring23': process.env.NEXT_PUBLIC_SPRING23_ID,
+    '/autumn23': process.env.NEXT_PUBLIC_AUTUMN23_ID,
+    '/wiki': process.env.NEXT_PUBLIC_WIKI_ID
   },
 
   // whether to use the default notion navigation style or a custom one with links to
